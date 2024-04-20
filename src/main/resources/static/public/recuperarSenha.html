@@ -18,6 +18,10 @@
               margin-right: auto;
               width: 100%;
             }
+            .form{
+              margin-left: 20%;
+              margin-right: 20%;
+            }
 
     </style>
   </head>
@@ -26,8 +30,23 @@
     <div class="LOJA_OFICIALVASCO_DA_CHURUPITA" style="font-size: 40px; font-family: 'Lobster', cursive; text-shadow: 2px 2px 20px #FF0000;">
       <img src="\assets\header-nova-ajustada.png" alt="Logo do Vasco da Gama" >
       <h1>Loja Oficial do Vasco da Churupita</h1>
+    </div>
+      <body>
+        
+        <div class="form">
+            <form onsubmit="return validateForm()" method="get">
 
-</main>
-</body>
+            <label for="password">Digite o E-mail cadastrado para recuperar sua senha:* </label><input type="password" id="password" name="password" /><br>
+            <input type="submit" value="Envia" style="background-color: black; color: white;">
+            <h6> Voce recebera em seu E-mail instrucoes para recuperacao de senha. </h6> 
+   
+            
+          </form>
+            <div style="text-align: right;">
+              <a href="/" target="_blank" style="background-color: black; color: white;">Voltar ao Inicio</a>
+              
+            </div>
+
+      </main>
+    </body>
 </html>
-
